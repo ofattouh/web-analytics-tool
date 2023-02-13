@@ -1,0 +1,312 @@
+/**
+Theme Name: Astra Child Theme
+Author: Omar M.
+Author URI: http://wpastra.com/about/
+Description: Astra is the fastest, fully customizable & beautiful theme suitable for blogs, personal portfolios and business websites. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with schema.org code integrated so search engines will love your site. Astra offers plenty of sidebar options and widget areas giving you a full control for customizations. Furthermore, we have included special features and templates so feel free to choose any of your favorite page builder plugin to create pages flexibly. Some of the other features: # WooCommerce Ready # Responsive # Compatible with major plugins # Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and beautiful theme!
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra-child-theme
+Template: astra
+*/
+
+/**************************** Gravity Forms ****************************/
+
+/* MOL Demographics Question Header selection */
+.chosen-results li:nth-child(odd) {
+  font-weight: bold !important;
+}
+
+/* MOL Demographics Question Description disabled */
+.chosen-results li:nth-child(even) {
+  color: #707070 !important;
+}
+
+
+/* Survey form navigation buttons */
+.gform_wrapper.gravity-theme .gform_previous_button.button:hover,
+.gform_wrapper.gravity-theme .gform_next_button.button:hover {
+  background-color: #D75064 !important;
+}
+
+.gform_wrapper.gravity-theme .gform_previous_button.button,
+.gform_wrapper.gravity-theme .gform_next_button.button,
+.gform_wrapper.gravity-theme .gform_save_link.button {
+  background-color: #7a2531 !important;
+  color: #fff !important;
+}
+
+/* Survey fields background/color */
+
+table.gsurvey-likert th.gsurvey-likert-choice-label {
+  background-color: #fff !important;
+}
+
+/* Remove survey fields borders */
+table.gsurvey-likert,
+table.gsurvey-likert th.gsurvey-likert-choice-label,
+table.gsurvey-likert .gsurvey-likert-choice, 
+table.gsurvey-likert .gsurvey-likert-row-label {
+  border-style: none !important;
+}
+
+/***************************************************************/
+
+/**************************** Member Press ****************************/
+
+/* Align display users link inside users management cell */
+.mepr-account-actions a {
+  padding-top: 27px !important;
+}
+
+/* Hide show password button */
+.mp-hide-pw.button {
+  display : none !important;
+}
+
+/* Hide sub accounts search - doesn't work */
+.mpca-search {
+  display: none !important;
+}
+
+/* Personal information fields */
+.mp_wrapper select, .mp_wrapper .mepr_mepr-address-zip {
+  width: 30% !important;
+}
+
+/* Date picker widget */
+div.ui-datepicker{
+  font-size: 12px;
+  width: 20em !important;
+}
+
+/* Report start & end dates fields */
+.report-start-date, .report-end-date {
+  width: 45% !important;
+}
+
+/* Memberpress account table */
+table.mepr-account-table th {
+  font-size: 16px !important;
+  padding: 15px !important;
+  text-align: center !important;
+}
+
+table.mepr-account-table td {
+  padding: 15px !important;
+  text-align: left !important;
+}
+
+/* Add Sub Account button */
+#mpca-add-sub-user-btn {
+  color: #fff !important;
+}
+
+/* Memberpress navigation links */
+.mepr-nav-item a {
+  text-decoration: none !important;
+  font-size: 18px !important;
+}
+
+/* Membership status label */
+.mepr-account-active {
+  color: #1E7B1E !important;
+}
+
+/* Password strength meter tooltip */
+/* https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  font-size: 12px;
+}
+
+p.tooltipStrongPwd {
+  padding-top: 15px;
+}
+
+p.tooltipStrongPwd, p.tooltipWeakPwd {
+  padding-left: 10px;
+  margin-bottom: 0px !important;
+  font-weight: bolder;
+}
+
+ul.tooltipStrongPwd, ul.tooltipWeakPwd {
+  margin: 0 1em 1.5em 3em !important;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: rgba( 28, 31, 63, 0.9 );
+  box-shadow: 0 4px 10px rgba( 18, 25, 97, 0.0779552 );
+  color: #fff;
+	border-radius: 10px;
+  position: absolute;
+  width: 400px;
+  margin-left: -200px; /* Use half of the width to center the tooltip */
+  bottom: 140%; /* Top tooltip */
+  left: 50%;
+	font: 400 .8125rem 'Gotham Light', sans-serif; 
+	line-height: 1.538461538em;
+	mix-blend-mode: normal;
+  z-index: 1000;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%; /* At the bottom of the tooltip */
+  left: 50%; /* Center the arrow */
+  margin-left: -10px; /* size of the arrow */
+  border-width: 10px; /* size of the arrow */
+  border-style: solid;
+  border-color: rgba( 28, 31, 63, 0.9 ) transparent transparent transparent; /* transform the content into an arrow */
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+p.tooltipMeprLoginUnameLabel {
+  padding: 15px !important;
+}
+
+/***************************************************************/
+
+/**************************** Organization Report Page ****************************/
+
+/* Results Table */
+table.organization-report-results {
+  border: 1px solid #000 !important;
+}
+
+table.organization-report-results th {
+  text-align: center !important;
+  font-size: 25px !important;
+  font-weight: bolder;
+  padding: 15px !important;
+}
+
+/* Your results */
+tr.organization-report-your-results-tr {
+  background-color: #F8F8F8;
+}
+
+tr.organization-report-your-results-tr:hover {
+  /* background-color: transparent !important; */
+  background-color: #f8f8ff !important;
+  font-weight: bold;
+  font-size: 16px !important;
+}
+
+td.organization-report-your-results-td {
+  font-size: 14px !important;
+}
+
+/* Challenge */
+th.organization-report-th2 {
+  background-color: #e73126;
+}
+
+/* Concern */
+th.organization-report-th3 {
+  background-color:  #e4ef2b;
+}
+
+/* Thriving */
+th.organization-report-th4 {
+  background-color: #159c65;
+}
+
+/* Reporting period */
+p.organization-report-dates {
+  font-size: 18px !important;
+}
+
+.organization-report-header, .organization-report-table, h3.organization-report-participant-header {
+  margin-left: 0px !important;
+}
+
+.organization-report-table {
+  max-width: 100% !important;
+}
+
+/**************************** Footer ********************************/
+
+.useful-links-footer {
+  padding-bottom: 30px !important;
+}
+
+/**************************** Commented out ****************************/
+
+/*
+  .tooltip::before { content: '\2139'; } 
+
+  @font-face {
+    font-family: 'Gotham Light';
+    src: url('/wp-content/uploads/Gotham/Gotham-Light.otf');
+    font-weight: normal;
+  }
+
+  @font-face {
+    font-family: 'Gotham Medium';
+    src: url('/wp-content/uploads/Gotham/Gotham-Medium.otf');
+    font-weight: bold;
+  }
+
+  body, p {
+    font-family: 'Gotham Light' !important;
+    font-size: 18px !important;
+    color: #000 !important;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Gotham Medium' !important;
+    color: #7A2531 !important;
+    text-transform: uppercase;
+  }
+*/
+
+/* Mobile break point
+  @media only screen and (max-width: 778px) 
+*/
+
+/*
+  .visualizer-front-681, .visualizer-front-574, .visualizer-front-567, .visualizer-front-552,
+  .visualizer-front-547, .visualizer-front-477, .visualizer-front-451, .visualizer-front-225,
+  .visualizer-actions a[data-visualizer-chart-id]{
+    display: none !important;
+  } 
+*/
+
+/* Show all tables
+  table.visualizer-data-table {
+    width: 90% !important;
+  } 
+*/
+
+/*
+  div.visualizer-front-357 svg rect{
+    fill: green !important;
+  }
+
+  div.visualizer-front-357 svg g g g:last-child rect:nth-child(4),
+  div.visualizer-front-477 svg g g g:nth-child(2) rect:nth-child(4){
+    fill: #81d742 !important;
+    pointer-events: none;
+  }
+*/
+
+/*
+  td.organization-report-your-results-td:hover {
+    font-size: 14px !important;
+  }
+*/
+
+/* PHS Checklist: Switches
+#gform_wrapper_14 .gform_fields .gfield .pretty.p-switch .state:after {
+  content: "No" !important;
+  margin-left: -85px !important;
+}
+*/

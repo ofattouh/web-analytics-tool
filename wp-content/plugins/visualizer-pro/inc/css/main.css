@@ -1,0 +1,206 @@
+/*
+	Version: 1.12.1
+*/
+#filter-wizard {
+	display: inline-block;
+	z-index: 9999;
+	box-sizing: border-box;
+	width: 100%;
+	padding-right: 300px;
+	text-align: center;
+}
+
+.filter-wizard-container {
+	display: inline-block;
+	width: 80%;
+	margin: 100px 10% 0;
+}
+
+@media screen and (min-width: 768px) {
+	.filter-wizard-container {
+		width: 60%;
+		margin: 100px 20% 0;
+	}
+}
+
+#filter-wizard-rules select {
+	height: 55px;
+	max-height: 55px;
+	margin: 0;
+	padding: 10px 20px;
+	color: #555;
+	box-shadow: none;
+}
+
+#filter-wizard select:focus,
+#filter-wizard .chosen-container-active .chosen-choices,
+#filter-wizard .chosen-container .chosen-drop,
+#filter-wizard input {
+	outline: none;
+	box-shadow: none;
+}
+
+#filter-wizard .chosen-container-active .chosen-choices,
+#filter-wizard .chosen-container-active .chosen-results {
+	border-color: #5b9dd9 !important;
+}
+
+#filter-wizard .chosen-container-multi .chosen-choices li.search-field input[type=text] {
+	color: #555;
+}
+
+#filter-wizard .chosen-container .chosen-drop {
+	display: none;
+	left: 20px;
+	padding-right: 20px;
+	border: none;
+}
+
+#filter-wizard .chosen-container.chosen-container-active .chosen-drop {
+	display: block;
+}
+
+#filter-wizard .chosen-container .chosen-drop .chosen-results {
+	border: 1px solid #ddd;
+	border-top: none;
+}
+
+#filter-wizard .chosen-container .chosen-results li {
+	padding: 10px;
+	border-bottom: 1px solid #eee;
+}
+
+#filter-wizard .chosen-container .chosen-results li:last-child {
+	border-bottom: none;
+}
+
+#filter-wizard .chosen-container .chosen-results li.highlighted {
+	background: #0085ba;
+}
+
+#filter-wizard-rules {
+	display: table;
+	width: 100%;
+}
+
+#visualizer-post-types {
+	display: table-cell;
+	width: 200px;
+}
+
+#filter-wizard .chosen-container {
+	display: table-cell;
+	box-sizing: border-box;
+	width: 100% !important;
+	padding-left: 20px;
+}
+
+#filter-wizard .chosen-container-multi .chosen-choices {
+	height: 55px !important;
+	max-height: 55px;
+	padding: 12px 20px;
+	border: 1px solid #ddd;
+	background-image: none;
+}
+
+#filter-wizard .chosen-container-multi .chosen-choices li.search-choice {
+	height: 30px;
+	margin: 0 10px 0 0;
+	padding: 7px 25px 10px 10px;
+	border: none;
+	color: #fff;
+	background: #0085ba;
+	box-shadow: none;
+	line-height: 1;
+}
+
+#filter-wizard .chosen-container-multi .chosen-choices li.search-choice .search-choice-close {
+	display: inline-block;
+	top: 6px;
+	right: 4px;
+	width: 18px;
+	height: 18px;
+	color: #9acadd;
+	font-family: dashicons;
+	font-size: 18px;
+}
+
+#filter-wizard .chosen-container-multi .chosen-choices li.search-choice .search-choice-close:hover {
+	color: #fff;
+}
+
+#filter-wizard .chosen-container-multi .chosen-choices li.search-choice .search-choice-close:before {
+	content: "\f335";
+}
+
+#filter-wizard .chosen-container-multi .chosen-choices li.search-field input[type=text] {
+	height: 29px;
+}
+
+#filter-wizard-details {
+	margin-top: 40px;
+	padding-top: 40px;
+	border-top: 1px solid #eee;
+}
+
+#filter-wizard table.filter-wizard {
+	width: 100%;
+}
+
+#filter-wizard table.filter-wizard tr.filter-wizard-new td {
+	padding-top: 20px;
+}
+
+#filter-wizard-details input,
+#filter-wizard-details select {
+	height: 35px;
+	padding: 0 15px;
+	line-height: 1;
+}
+
+#filter-wizard-details {
+	display: none;
+}
+
+#visualizer_post_fields_chosen.chosen-container-multi .chosen-choices li.search-choice .search-choice-close {
+	background: none;
+}
+
+#vz-no-fields {
+	width: 100%;
+	margin-top: 50px;
+	color: #555;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+
+ul.filter-wizard-hints {
+	text-align: justify;
+	margin-top: 5%;
+}
+
+ul.filter-wizard-hints li {
+	color: #cccccc;
+	font-style: italic;
+}
+
+.db-test-conn-result {
+	margin-left: 20px;
+	color: white;
+    padding: 4px;
+}
+
+.db-test-conn-result.conn-yes {
+	background-color: #32CD32;
+}
+
+.db-test-conn-result.conn-no {
+	background-color: #DC143C;
+}
+.chosen-container-multi .chosen-choices {
+	overflow-y: scroll;
+}
+#filter-wizard .chosen-container-multi .chosen-choices li.search-choice {
+	    margin: 0 10px 5px 0 !important;
+}

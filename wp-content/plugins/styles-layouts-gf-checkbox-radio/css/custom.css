@@ -1,0 +1,70 @@
+.gform_wrapper .gform_body .gform_fields .gfield .pretty {
+    overflow: visible;
+    vertical-align: baseline;
+	min-height: auto;
+	margin-bottom: 8px;
+}
+
+.gform_wrapper .gform_fields .gfield .pretty{
+	width: 100%;
+}
+.gform_wrapper .gform_fields .gfield .gchoice.pretty{
+	white-space: normal;
+	margin-right: 0px;
+}
+.gform_wrapper .gform_body .gform_fields .gfield .pretty .state label{
+    /* white-space: nowrap; */
+    vertical-align: baseline;
+    line-height: 1;
+    font-size: 1em
+}
+	
+.gform_wrapper .gform_fields .gfield .pretty .state label,
+.gform_wrapper .gform_fields .gfield .pretty.p-switch .state label{
+	text-indent: 0;
+	padding-left: 2.5em;
+}
+	
+.gform_wrapper .gform_fields .gfield .pretty .state label::after, 
+.gform_wrapper .gform_fields .gfield .pretty .state label::before, 
+.gform_wrapper .gform_fields .gfield .pretty.p-switch .state:before,
+.gform_wrapper .gform_fields .gfield .pretty.p-icon .state .icon, 
+.gform_wrapper .gform_fields .gfield .pretty.p-svg .state .svg {
+	top: 0 ; 
+}
+
+/* Added width with reduced priority.. can be overwritten by ready classes*/
+.gform_body .gform_fields .gfield ul li.pretty {
+	width: 100%;
+}
+
+.gform_wrapper .gform_body .gform_fields .gfield .pretty .stla-radio-other-state input{
+	opacity: 1;
+	position: static;
+	display:inline-block;
+	height: auto;
+}
+
+/* for other choice radio input */
+.gform_wrapper .gform_body .gform_fields .gfield .pretty .stla-radio-other-state label::before, 
+.gform_wrapper .gform_body .gform_fields .gfield .pretty .stla-radio-other-state label::after,
+.gform_wrapper .gform_body .gform_fields .gfield .pretty .stla-radio-other-state::before, 
+.gform_wrapper .gform_body .gform_fields .gfield .pretty .stla-radio-other-state::after,
+.gform_wrapper .gform_body .gform_fields .gfield  .pretty .stla-radio-other-state .icon{
+	top:5px;
+}
+
+.gform_wrapper .gform_body .gform_fields .gfield .pretty input[value="gf_other_choice"]{
+	width: 10px;
+}
+
+/* Gravity form removed the width from inline choices version 5>= */
+.gform_wrapper .gfield.gf_list_inline .gfield_radio .gchoice.pretty,
+.gform_wrapper .gfield.gf_list_inline .gfield_checkbox .gchoice.pretty{
+	width: auto;
+}
+
+.gform_legacy_markup_wrapper .gfield_checkbox li.pretty label,
+.gform_legacy_markup_wrapper .gfield_radio li.pretty label{
+	max-width: 100%;
+}

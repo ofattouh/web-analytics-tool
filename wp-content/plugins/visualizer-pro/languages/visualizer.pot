@@ -1,0 +1,969 @@
+# Copyright (C) 2020 ThemeIsle
+# This file is distributed under the yes.
+msgid ""
+msgstr ""
+"Project-Id-Version: Visualizer: Tables and Charts Manager for WordPress "
+"AddOn 1.9.1\n"
+"Report-Msgid-Bugs-To: https://github.com/Codeinwp/visualizer-pro/issues\n"
+"POT-Creation-Date: 2020-01-21 15:30:07+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Themeisle Translate Team <friends@themeisle.com>\n"
+"Language-Team: Themeisle Translate <friends@themeisle.com>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: inc/addon.php:174
+msgid ""
+"If you change the connection parameters, please use the 'Test Connection' "
+"button to verify the connection."
+msgstr ""
+
+#: inc/addon.php:175
+msgid ""
+"To know how to add support for other databases, please refer to "
+"%1$sthis%2$s and %3$sthis%4$s. Once you enable those extensions and restart "
+"the web server, the options will show up as enabled in the dropdown above."
+msgstr ""
+
+#: inc/addon.php:289
+msgid "Select another/external database"
+msgstr ""
+
+#: inc/addon.php:303
+msgid "Server Name/IP[:port]"
+msgstr ""
+
+#: inc/addon.php:304
+msgid "Database Name"
+msgstr ""
+
+#: inc/addon.php:305
+msgid "Username"
+msgstr ""
+
+#: inc/addon.php:306
+msgid "Password"
+msgstr ""
+
+#: inc/addon.php:307
+msgid "Test Connection"
+msgstr ""
+
+#: inc/addon.php:332
+msgid "Unable to connect!"
+msgstr ""
+
+#: inc/addon.php:337
+msgid "Connected!"
+msgstr ""
+
+#: inc/addon.php:359 inc/addon.php:387
+msgid "Live"
+msgstr ""
+
+#: inc/addon.php:360 inc/addon.php:372 inc/addon.php:388
+msgid "Each hour"
+msgstr ""
+
+#: inc/addon.php:361 inc/addon.php:373 inc/addon.php:389
+msgid "Each 12 hours"
+msgstr ""
+
+#: inc/addon.php:362 inc/addon.php:374 inc/addon.php:390
+msgid "Each day"
+msgstr ""
+
+#: inc/addon.php:363 inc/addon.php:375 inc/addon.php:391
+msgid "Each 3 days"
+msgstr ""
+
+#: inc/addon.php:459 inc/addon.php:479
+msgid "Save"
+msgstr ""
+
+#: inc/addon.php:460 inc/addon.php:480
+msgid "Cancel"
+msgstr ""
+
+#: inc/addon.php:595
+msgid "Edit"
+msgstr ""
+
+#: inc/addon.php:908 inc/addon.php:933
+msgid "Table (Deprecated)"
+msgstr ""
+
+#: inc/addon.php:913 inc/addon.php:934
+msgid "Timeline"
+msgstr ""
+
+#: inc/addon.php:918 inc/addon.php:935
+msgid "Combo"
+msgstr ""
+
+#: inc/addon.php:923 inc/addon.php:936
+msgid "Polar Area"
+msgstr ""
+
+#: inc/addon.php:928
+msgid "Radar/Spider"
+msgstr ""
+
+#: inc/addon.php:937
+msgid "Radar"
+msgstr ""
+
+#: inc/addon.php:989
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/addon.php:990
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/addon.php:992
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:337
+#. translators: %s: plugin name.
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/addon.php:994
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:339
+#. translators: %s: plugin name.
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/addon.php:995
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/addon.php:997
+#. translators: 1: plugin name(s).
+msgid "Visualizer requires the following plugin: %1$s."
+msgid_plural "Visualizer requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/addon.php:1003
+#. translators: 1: plugin name(s).
+msgid "Visualizer recommends the following plugin: %1$s."
+msgid_plural "Visualizer recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/addon.php:1009
+#. translators: 1: plugin name(s).
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with Visualizer: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with Visualizer: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/addon.php:1015
+#. translators: 1: plugin name(s).
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/addon.php:1021
+#. translators: 1: plugin name(s).
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/addon.php:1027
+#. translators: 1: plugin name(s).
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/addon.php:1032
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:377
+#. translators: 1: plugin name(s).
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/addon.php:1037
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:382
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/addon.php:1042
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:387
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/addon.php:1047
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/addon.php:1048
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:394
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3268
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/addon.php:1049
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:395
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3055
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: inc/addon.php:1051
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:397
+#. translators: 1: plugin name.
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/addon.php:1053
+#. translators: 1: plugin name.
+msgid ""
+"Plugin not activated. A higher version of %s is needed for Visualizer. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/addon.php:1055
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:401
+#. translators: 1: dashboard link.
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/addon.php:1056
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/addon.php:1057
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/addon.php:1058
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/addon.php:1128
+msgid "You have entered invalid URL. Please, insert proper URL."
+msgstr ""
+
+#: inc/addon.php:1129
+msgid "Loading..."
+msgstr ""
+
+#: inc/addon.php:1130
+msgid "Please check the filters you have configured."
+msgstr ""
+
+#: inc/addon.php:1131
+msgid "Please connect to the database before providing the query."
+msgstr ""
+
+#: inc/addon.php:1469
+msgid ""
+"If you get an error while displaying the chart, try to reverse the order of "
+"the columns."
+msgstr ""
+
+#: inc/addon.php:1481
+msgid "Select post type"
+msgstr ""
+
+#: inc/addon.php:1497
+msgid "Select properties"
+msgstr ""
+
+#: inc/addon.php:1520
+msgid ""
+"Please select the post type fields that you would like to plot. You can "
+"refer to our documentation %1$shere%2$s"
+msgstr ""
+
+#: inc/addon.php:1537
+msgid "Field"
+msgstr ""
+
+#: inc/addon.php:1538
+msgid "Alias"
+msgstr ""
+
+#: inc/addon.php:1539
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2652
+msgid "Type"
+msgstr ""
+
+#: inc/addon.php:2065
+msgid "From Chart"
+msgstr ""
+
+#: inc/addon.php:2079 inc/addon.php:2080
+msgid "Show Live Editor"
+msgstr ""
+
+#: inc/addon.php:2080
+msgid "Show Chart"
+msgstr ""
+
+#: inc/types/Combo.php:79
+msgid "Combo Settings"
+msgstr ""
+
+#: inc/types/Combo.php:83 inc/types/Combo.php:126
+msgid "Chart Type"
+msgstr ""
+
+#: inc/types/Combo.php:87 inc/types/Combo.php:131
+msgid "Area"
+msgstr ""
+
+#: inc/types/Combo.php:88 inc/types/Combo.php:132
+msgid "Bar"
+msgstr ""
+
+#: inc/types/Combo.php:89 inc/types/Combo.php:133
+msgid "Candlesticks"
+msgstr ""
+
+#: inc/types/Combo.php:90 inc/types/Combo.php:134
+msgid "Line"
+msgstr ""
+
+#: inc/types/Combo.php:91 inc/types/Combo.php:135
+msgid "Stepped Area"
+msgstr ""
+
+#: inc/types/Combo.php:93
+msgid "Select the default chart type."
+msgstr ""
+
+#: inc/types/Combo.php:137
+msgid "Select the type of chart to show for this series."
+msgstr ""
+
+#: inc/types/DataTable.php:64
+msgid "Enable Search"
+msgstr ""
+
+#: inc/types/DataTable.php:68
+msgid "To enable searching on columns."
+msgstr ""
+
+#: inc/types/DataTable.php:74
+msgid "Enable selection"
+msgstr ""
+
+#: inc/types/DataTable.php:78
+msgid "Single item"
+msgstr ""
+
+#: inc/types/DataTable.php:79
+msgid "Multiple items"
+msgstr ""
+
+#: inc/types/DataTable.php:80
+msgid "Operating System dependent"
+msgstr ""
+
+#: inc/types/DataTable.php:82
+msgid "Determines how items can be selected from the table."
+msgstr ""
+
+#: inc/types/DataTable.php:88
+msgid "Enable selection of"
+msgstr ""
+
+#: inc/types/DataTable.php:92
+msgid "Row(s)"
+msgstr ""
+
+#: inc/types/DataTable.php:93
+msgid "Column(s)"
+msgstr ""
+
+#: inc/types/DataTable.php:94
+msgid "Cell(s)"
+msgstr ""
+
+#: inc/types/DataTable.php:96
+msgid "Determines which item(s) can be selected from the table."
+msgstr ""
+
+#: inc/types/DataTable.php:102
+msgid "Enable information of selection"
+msgstr ""
+
+#: inc/types/DataTable.php:106
+msgid ""
+"Enable / disable the display for item selection information in the table "
+"summary."
+msgstr ""
+
+#: inc/types/DataTable.php:111
+msgid "Selected Table Item"
+msgstr ""
+
+#: inc/types/DataTable.php:113
+msgid "These values will be applied once you save the chart."
+msgstr ""
+
+#: inc/types/DataTable.php:116 inc/types/Table.php:159 inc/types/Table.php:188
+#: inc/types/Table.php:217 inc/types/Table.php:246 inc/types/Table.php:275
+#: inc/types/Table.php:304 inc/types/Table.php:333
+msgid "Background Color"
+msgstr ""
+
+#: inc/types/DataTable.php:123 inc/types/Table.php:166 inc/types/Table.php:195
+#: inc/types/Table.php:224 inc/types/Table.php:253 inc/types/Table.php:282
+#: inc/types/Table.php:311 inc/types/Table.php:340
+msgid "Color"
+msgstr ""
+
+#: inc/types/DataTable.php:130 inc/types/Table.php:173 inc/types/Table.php:202
+#: inc/types/Table.php:231 inc/types/Table.php:260 inc/types/Table.php:289
+#: inc/types/Table.php:318 inc/types/Table.php:347
+msgid "Text Orientation"
+msgstr ""
+
+#: inc/types/DataTable.php:133 inc/types/Table.php:176 inc/types/Table.php:205
+#: inc/types/Table.php:234 inc/types/Table.php:263 inc/types/Table.php:292
+#: inc/types/Table.php:321 inc/types/Table.php:350
+msgid "In degrees."
+msgstr ""
+
+#: inc/types/DataTable.php:148
+msgid "Enable paging display length"
+msgstr ""
+
+#: inc/types/DataTable.php:152
+msgid "Allow user to change the paging display length of the table."
+msgstr ""
+
+#: inc/types/Google.php:69
+msgid "Zoom/Pan"
+msgstr ""
+
+#: inc/types/Google.php:72
+msgid "Enable zoom/pan"
+msgstr ""
+
+#: inc/types/Google.php:76
+msgid ""
+"Enable users to pan horizontally and vertically by dragging, and to zoom in "
+"and out by scrolling. This only works with continuous axes (such as numbers "
+"or dates)."
+msgstr ""
+
+#: inc/types/Google.php:80
+msgid "Drag to Zoom"
+msgstr ""
+
+#: inc/types/Google.php:84
+msgid "Change the default from scroll to zoom to drag to zoom."
+msgstr ""
+
+#: inc/types/Google.php:88
+msgid "Drag to Pan"
+msgstr ""
+
+#: inc/types/Google.php:92
+msgid "Drag to pan around the chart horizontally and vertically."
+msgstr ""
+
+#: inc/types/Google.php:96
+msgid "Right click to reset"
+msgstr ""
+
+#: inc/types/Google.php:100
+msgid ""
+"Right clicking on the chart returns it to the original pan and zoom level. "
+"Only works with \"Drag to Zoom\" or \"Drag to Pan\""
+msgstr ""
+
+#: inc/types/PolarArea.php:29
+msgid "Slices Settings"
+msgstr ""
+
+#: inc/types/Table.php:68 inc/types/Timeline.php:67
+msgid "General Settings"
+msgstr ""
+
+#: inc/types/Table.php:69 inc/types/Timeline.php:68
+msgid "Title"
+msgstr ""
+
+#: inc/types/Table.php:71 inc/types/Timeline.php:70
+msgid "Chart Title"
+msgstr ""
+
+#: inc/types/Table.php:74 inc/types/Timeline.php:73
+msgid "Text to display in the back-end admin area."
+msgstr ""
+
+#: inc/types/Table.php:88
+msgid "Table Settings"
+msgstr ""
+
+#: inc/types/Table.php:92
+msgid "Enable Pagination"
+msgstr ""
+
+#: inc/types/Table.php:96
+msgid "To enable paging through the data."
+msgstr ""
+
+#: inc/types/Table.php:102
+msgid "Number of rows per page"
+msgstr ""
+
+#: inc/types/Table.php:105
+msgid "The number of rows in each page, when paging is enabled."
+msgstr ""
+
+#: inc/types/Table.php:112
+msgid "Disable Sort"
+msgstr ""
+
+#: inc/types/Table.php:116
+msgid "To disable sorting on columns."
+msgstr ""
+
+#: inc/types/Table.php:122
+msgid "Freeze Columns"
+msgstr ""
+
+#: inc/types/Table.php:125
+msgid "The number of columns from the left that will be frozen."
+msgstr ""
+
+#: inc/types/Table.php:136
+msgid "Allow HTML"
+msgstr ""
+
+#: inc/types/Table.php:140
+msgid ""
+"If enabled, formatted values of cells that include HTML tags will be "
+"rendered as HTML."
+msgstr ""
+
+#: inc/types/Table.php:146
+msgid "Right to Left table"
+msgstr ""
+
+#: inc/types/Table.php:150
+msgid "Adds basic support for right-to-left languages."
+msgstr ""
+
+#: inc/types/Table.php:156
+msgid "Row/Cell Settings"
+msgstr ""
+
+#: inc/types/Table.php:157
+msgid "Header Row"
+msgstr ""
+
+#: inc/types/Table.php:186
+msgid "Table Row"
+msgstr ""
+
+#: inc/types/Table.php:215
+msgid "Odd Table Row"
+msgstr ""
+
+#: inc/types/Table.php:244
+msgid "Selected Table Row"
+msgstr ""
+
+#: inc/types/Table.php:273
+msgid "Hover Table Row"
+msgstr ""
+
+#: inc/types/Table.php:302
+msgid "Header Cell"
+msgstr ""
+
+#: inc/types/Table.php:331
+msgid "Table Cell"
+msgstr ""
+
+#: inc/types/Timeline.php:88
+msgid "Timeline Settings"
+msgstr ""
+
+#: inc/types/Timeline.php:92
+msgid "Show Row Label"
+msgstr ""
+
+#: inc/types/Timeline.php:96
+msgid "If checked, shows the category/row label."
+msgstr ""
+
+#: inc/types/Timeline.php:102
+msgid "Group by Row Label"
+msgstr ""
+
+#: inc/types/Timeline.php:106
+msgid "If checked, groups the bars on the basis of the category/row label."
+msgstr ""
+
+#: inc/types/Timeline.php:112
+msgid "Color by Row Label"
+msgstr ""
+
+#: inc/types/Timeline.php:116
+msgid "If checked, colors every bar on the row the same."
+msgstr ""
+
+#: inc/types/Timeline.php:122
+msgid "Single Color"
+msgstr ""
+
+#: inc/wrappers.php:134
+msgid "Error: Unable to connect to database"
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:393
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:920
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2636
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3694
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:399
+#. translators: 1: plugin name.
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:1027
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2075
+#. translators: %s: version number
+msgid "TGMPA v%s"
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2376
+msgid "Required"
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2379
+msgid "Recommended"
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2395
+msgid "WordPress Repository"
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2398
+msgid "External Source"
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2401
+msgid "Pre-Packaged"
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2418
+msgid "Not Installed"
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2422
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2424
+msgid "Active"
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2430
+msgid "Required Update not Available"
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2433
+msgid "Requires Update"
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2436
+msgid "Update recommended"
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2495
+#. translators: 1: number of plugins.
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2499
+#. translators: 1: number of plugins.
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2503
+#. translators: 1: number of plugins.
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2593
+msgid "Installed version:"
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2601
+msgid "Minimum required version:"
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2613
+msgid "Available version:"
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2636
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2650
+msgid "Plugin"
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2651
+msgid "Source"
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2656
+msgid "Version"
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2657
+msgid "Status"
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2706
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Install %2$s"
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2711
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Update %2$s"
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2717
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Activate %2$s"
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2787
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2820
+msgid "Install"
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2826
+msgid "Update"
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2829
+msgid "Activate"
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2860
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2862
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2903
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2905
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3011
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3037
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3267
+msgid "Plugin activation failed."
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3612
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3615
+#. translators: 1: plugin name, 2: error message.
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3617
+#. translators: 1: plugin name.
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3621
+msgid ""
+"The installation and activation process is starting. This process may take "
+"a while on some hosts, so please be patient."
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3623
+#. translators: 1: plugin name.
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3623
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3631
+msgid "Show Details"
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3623
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3631
+msgid "Hide Details"
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3624
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3626
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3629
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3631
+#. translators: 1: plugin name.
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3632
+msgid "All installations have been completed."
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3634
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Visualizer: Tables and Charts Manager for WordPress AddOn"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://themeisle.com/plugins/visualizer-charts-and-graphs/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "This addon enables the pro functions of WordPress Visualizer plugin."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThemeIsle"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://themeisle.com"
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:1214
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3051
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2445
+#. translators: 1: install status, 2: update status
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2491
+#. translators: 1: number of plugins.
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2585
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
